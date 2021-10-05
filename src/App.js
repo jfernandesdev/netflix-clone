@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import api from './service/api'
 
+import Header from './components/Header';
 import FeaturedMovie from './components/FeaturedMovie';
 import MovieRow from './components/MovieRow';
 
@@ -9,6 +10,7 @@ import style from './style/app.module.scss';
 export default function App() {
   const [movieList, setMovieList] = useState([]);
   const [featuredData, setFeaturedData] = useState(null);
+  const [blackHeader, setBlackHeader] = useState(false);
 
   useEffect(() => {
     const loadAll = async () => {
@@ -27,9 +29,25 @@ export default function App() {
     loadAll();
   }, []);
 
+  useEffect(() => {
+    const scrollListener = () => {
+      if (window.scrollY > 15) {
+        setBlackHeader(true);
+      } else {
+        setBlackHeader(false);
+      }
+    }
+
+    window.addEventListener('scroll', scrollListener);
+    return () => {
+      window.removeEventListener('scroll', scrollListener);
+    }
+  }, [])
+
   return (
     <div className={style.page}>
 
+      <Header black={blackHeader} />
       {featuredData && <FeaturedMovie item={featuredData} />}
 
       <section className={style.lists}>
