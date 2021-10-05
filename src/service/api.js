@@ -2,7 +2,6 @@ const API_KEY = process.env.REACT_APP_API_KEY;
 const API_BASE = 'https://api.themoviedb.org/3';
 const FILTER_URL = 'language=pt-BR&api_key=' + API_KEY;
 
-console.log(`/discover/tv?with_network=213&${FILTER_URL}`);
 
 const basicFetch = async (endpoint) => {
   const req = await fetch(`${API_BASE}${endpoint}`);
