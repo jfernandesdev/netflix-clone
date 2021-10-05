@@ -1,13 +1,15 @@
 import { useEffect, useState } from 'react'
 import api from './service/api'
 
+import MovieRow from './components/MovieRow';
+
+import './style/app.module.scss';
 
 export default function App() {
   const [movieList, setMovieList] = useState([]);
 
   useEffect(() => {
     const loadAll = async () => {
-      //get list all
       let list = await api.getHomeList();
       setMovieList(list);
     }
@@ -16,6 +18,12 @@ export default function App() {
   }, []);
 
   return (
-    <h1>Hello World!</h1>
+    <div className="page">
+      <section className="lists">
+        {movieList.map((item, key) => (
+          <MovieRow key={key} title={item.title} items={item.items} />
+        ))}
+      </section>
+    </div>
   );
 }
