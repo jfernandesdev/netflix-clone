@@ -16,3 +16,14 @@ body {
     }
   }
 }
+
+footer {
+  padding: 10px 30px 30px;
+  display: flex;
+  justify-content: space-around;
+  color: #999;
+
+   small {
+     font-size: 0.85rem;
+   }
+}

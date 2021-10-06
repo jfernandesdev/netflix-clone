@@ -55,6 +55,12 @@ export default function App() {
           <MovieRow key={key} title={item.title} items={item.items} />
         ))}
       </section>
+
+      <footer>
+        <small>Feito com <span role="img" aria-label="coração e café">❤ e ☕</span> por Jeferson Fernandes</ small>|
+        <small>Direitos de imagem para Netflix</small>|
+        <small>Dados pegos do site themoviedb.org</small>
+      </footer>
     </div>
   );
 }
