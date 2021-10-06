@@ -19,14 +19,17 @@ Projeto Web desenvolvido para fins didáticos. TEMA: 'Netflix clone' 🎥🎞
 
 ### Desktop (screenshot):
  
-:-------------------------:|:-------------------------: |:-------------------------: 
+|Série em destaque|Slider de séries/filmes|Slider de séries/filmes| 
+| --- | --- | --- |
 ![](https://github.com/jfernandesdev/netflix-clone/blob/c59566e9f0deeea6e678279322ccbff91858d514/public/layout/layout-1.png) | ![](https://github.com/jfernandesdev/netflix-clone/blob/c59566e9f0deeea6e678279322ccbff91858d514/public/layout/layout-2.png) | ![](https://github.com/jfernandesdev/netflix-clone/blob/c59566e9f0deeea6e678279322ccbff91858d514/public/layout/layout-3.png)
 
 
 ### Mobile (screenshot):
 
-:-------------------------:|:-------------------------: |:-------------------------: 
-![](https://github.com/jfernandesdev/netflix-clone/blob/c59566e9f0deeea6e678279322ccbff91858d514/public/layout/layout-mobile-1.png) | ![](https://github.com/jfernandesdev/netflix-clone/blob/c59566e9f0deeea6e678279322ccbff91858d514/public/layout/layout-mobile-2.png) | ![](https://github.com/jfernandesdev/netflix-clone/blob/c59566e9f0deeea6e678279322ccbff91858d514/public/layout/layout-mobile-3.png)
+|Série em destaque|Série em destaque|Slider de séries/filmes| Slider de séries/filmes| 
+| --- | --- | --- | --- |
+<img src="https://github.com/jfernandesdev/netflix-clone/blob/c59566e9f0deeea6e678279322ccbff91858d514/public/layout/layout-mobile-1.png" width="250" /> | <img src="https://github.com/jfernandesdev/netflix-clone/blob/c59566e9f0deeea6e678279322ccbff91858d514/public/layout/layout-mobile-4.png" width="250" /> | <img src="https://github.com/jfernandesdev/netflix-clone/blob/c59566e9f0deeea6e678279322ccbff91858d514/public/layout/layout-mobile-2.png" width="250" /> | <img src="https://github.com/jfernandesdev/netflix-clone/blob/c59566e9f0deeea6e678279322ccbff91858d514/public/layout/layout-mobile-3.png" width="250" />  
+
 
 ### Dê uma olhada como o projeto ficou! 👀
 
