@@ -1,4 +1,6 @@
 import style from './styles.module.scss';
+import { FaPlay, FaPlus } from 'react-icons/fa';
+
 
 export default ({ item }) => {
 
@@ -35,8 +37,8 @@ export default ({ item }) => {
           </div>
 
           <div className={style.buttons}>
-            <button type="button" className={style.btnWatch}>▶ Assistir</button>
-            <button type="button" className={style.btnMyList}>+ Minha Lista</button>
+            <button type="button" className={style.btnWatch}><FaPlay /> Assistir</button>
+            <button type="button" className={style.btnMyList}><FaPlus /> Minha Lista</button>
           </div>
 
           <div className={style.genres}>

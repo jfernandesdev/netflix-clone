@@ -44,3 +44,26 @@ footer {
     width: 50%;
   }
 }
+
+
+@media (max-width: 768px) {
+  body {
+    .page {
+      .lists {
+        margin-top: -25%;
+      }
+    }
+
+    footer {
+      padding: 0 0 20px 0;
+      display: grid;
+      justify-content: center;
+      text-align: center;
+  
+      small {
+        font-size: 0.8rem;
+        line-height: 1.7em;
+      }
+    }
+  }
+}

@@ -37,7 +37,7 @@
     z-index: 998;
     bottom: 0;
     width: 40px;
-    height: 228px;
+    height: 225px;
     background-color: rgba(0,0,0,0.6);
     display: flex;
     justify-content: center;
@@ -59,6 +59,14 @@
   &:hover {
     .arrowLeft, .arrowRight {
       opacity: 1;
+    }
+  }
+}
+
+@media(max-width: 768px) {
+  .listContainer {
+    .arrowLeft, .arrowRight {
+      opacity: 0.7;
     }
   }
 }
