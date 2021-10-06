@@ -1,5 +1,6 @@
 .listContainer {
   margin-bottom: 30px;
+  position: relative;
 
   h2 {
     margin: 0px 0px 0px 30px;
@@ -10,12 +11,13 @@
     padding-left: 30px;
 
     .list {
-        width: 99999px;
-      
+      transition: all ease 0.5s;
+
       .item {
         display: inline-block;
         width: 150px;
         cursor: pointer;
+        outline: 0;
 
         img {
           width: 100%;
@@ -26,7 +28,37 @@
             transform: scale(1);
           }
         }
-      }
+      } 
+    } 
+  }
+
+  .arrowLeft, .arrowRight {
+    position: absolute;
+    z-index: 998;
+    bottom: 0;
+    width: 40px;
+    height: 228px;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0;
+    transition: all ease 0.5s;
+
+    &.arrowLeft {
+      left: 0;
+    }
+
+    &.arrowRight {
+      right: 0;
+    }
+  }
+
+  &:hover {
+    .arrowLeft, .arrowRight {
+      opacity: 1;
     }
   }
 }
