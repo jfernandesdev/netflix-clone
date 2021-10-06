@@ -33,7 +33,7 @@ Projeto Web desenvolvido para fins didáticos. TEMA: 'Netflix clone' 🎥🎞
 
 ### Dê uma olhada como o projeto ficou! 👀
 
-(Em breve ...)
+https://netflixclone-jfernandesdev.netlify.app/
 
 <br>
 
