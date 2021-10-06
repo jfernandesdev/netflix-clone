@@ -27,3 +27,20 @@ footer {
      font-size: 0.85rem;
    }
 }
+
+.loading {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 50%;
+  }
+}

@@ -61,6 +61,12 @@ export default function App() {
         <small>Direitos de imagem para Netflix</small>|
         <small>Dados pegos do site themoviedb.org</small>
       </footer>
+
+      {movieList.length <= 0 &&
+        <div className={style.loading}>
+          <img src="https://media.filmelier.com/noticias/br/2020/03/Netflix_LoadTime.gif" alt="Carregando..." />
+        </div>
+      }
     </div>
   );
 }
