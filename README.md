@@ -1,7 +1,7 @@
 # Netflix Clone <img src='https://github.com/jfernandesdev/netflix-clone/blob/c59566e9f0deeea6e678279322ccbff91858d514/public/favicon.png' width='27px' />
 Projeto Web desenvolvido para fins didáticos. TEMA: 'Netflix clone' 🎥🎞
 
-### Funcionalidades:
+### Descrição:
 
 - [x] Integração com a API do The Movie Database;
 - [x] Série em destaque com banner, pontuação, ano, nº de temporadas, descrição e gêneros;
